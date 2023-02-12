@@ -36,7 +36,11 @@ import facebook from "./icons8-facebook-50.png";
 import logo1 from "./logo1.jpg";
 import logo2 from "./logo2.jpg";
 import logo3 from "./logo3.jpg";
+import arrow from "./icons8-less-than-50.png";
+import cart2 from "./icons8-shopping-cart-502.png";
 export {
+  cart2,
+  arrow,
   logo1,
   logo2,
   logo3,

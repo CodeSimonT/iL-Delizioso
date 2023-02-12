@@ -10,7 +10,7 @@ const CandyCateg = () => {
       <h1 className={`${style.heading} text-primary font-bold `}>
         Shop Top Categories
       </h1>
-      <div className="flex flex-row justify-evenly items-center">
+      <div className="grid place-items-center ss:grid-cols-3 md:grid-cols-5 lg:grid-cols-5">
         {categories2.map((item, index) => (
           <div
             key={item.id}

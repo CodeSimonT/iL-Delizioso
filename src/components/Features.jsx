@@ -4,10 +4,12 @@ import { style } from "../styles";
 const Features = () => {
   return (
     <section className={`${style.flexCenter} flex-col ${style.paddingX}`}>
-      <h1 className={`${style.heading} text-primary font-semibold`}>
+      <h1
+        className={`${style.heading} text-primary font-semibol text-center font-semibold`}
+      >
         Shop Featured Candy Brands
       </h1>
-      <div className="flex flex-row justify-evenly item-center w-full mb-20">
+      <div className="grid place-items-center ss:grid-cols-2 md:grid-cols-4 w-full mb-20">
         {features.map((item, index) => (
           <div key={item.id}>
             <img
@@ -18,7 +20,7 @@ const Features = () => {
           </div>
         ))}
       </div>
-      <p className="text-justify text-textcolor">
+      <p className="text-justify text-textcolor text-[13px] md:text-[15px]">
         Welcome to iL Delizioso, the online bulk candy store that has over 6,000
         fresh candies ready for delivery directly to your door! Are you having
         trouble finding treats and party supplies near you? We make it

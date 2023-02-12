@@ -11,19 +11,17 @@ const Items = () => {
         Bulk Candy Shipped Fast
       </h1>
       <div className="flex flex-col items-center">
-        <div
-          className={`flex flex-row justify-center border-b-2 text-[25px] w-full  `}
-        >
-          <div className="flex justify-between w-[300px] pb-3 ">
+        <div className={`flex flex-row justify-center border-b-2  w-full  `}>
+          <div className="flex justify-between w-[200px] pb-3 text-[15px] ss:text-[20px] ss:w-[300px] ">
             <h1>Top Sellers</h1>
             <h1>New Items</h1>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-around w-full mt-[50px]">
+        <div className="grid place-items-center ss:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full mt-[50px]">
           {item1.map((item, index) => (
             <div
               key={item.id}
-              className="min-w-[200px] max-w-[200px] min-h-[400px]"
+              className="min-w-[200px] max-w-[200px] min-h-[400px] mb-5"
             >
               <img
                 src={item.img}

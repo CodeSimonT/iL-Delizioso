@@ -7,6 +7,7 @@ import {
   search,
   cart,
   info,
+  cart2,
 } from "../assets";
 export const NavLink = [
   {
@@ -27,7 +28,7 @@ export const NavLink = [
   {
     id: 4,
     link: "Cart",
-    img: cart,
+    img: cart2,
   },
   {
     id: 5,
@@ -239,7 +240,7 @@ export const socialMedia = [
 export const footer = [
   {
     id: 1,
-    title: "CANDY WAREHOUSE",
+    title: "iL Delizioso",
     list: [
       {
         name: "About Us",
@@ -326,5 +327,101 @@ export const footer = [
         name: "Chat with us!",
       },
     ],
+  },
+];
+export const candy = [
+  {
+    id: 1,
+    name: "About Us",
+  },
+  {
+    id: 2,
+    name: "Locations",
+  },
+  {
+    id: 3,
+    name: "Candy Elves",
+  },
+  {
+    id: 4,
+    name: "Site Map",
+  },
+  {
+    id: 5,
+    name: "Wholesale Login",
+  },
+];
+export const customer = [
+  {
+    id: 1,
+    name: "Shipping Policy",
+  },
+  {
+    id: 2,
+    name: "FAQs",
+  },
+  {
+    id: 3,
+    name: "Contact Us",
+  },
+  {
+    id: 4,
+    name: "Check Order Status",
+  },
+  {
+    id: 5,
+    name: "Term of Service",
+  },
+  {
+    id: 6,
+    name: "Return Policy",
+  },
+  {
+    id: 7,
+    name: "Privacy Policy",
+  },
+];
+export const resource = [
+  {
+    id: 1,
+    name: "Candy Blog",
+  },
+  {
+    id: 2,
+    name: "Corporate Gifts",
+  },
+  {
+    id: 3,
+    name: "Candy Shelf Life",
+  },
+  {
+    id: 4,
+    name: "Gluten Free Candy",
+  },
+  {
+    id: 5,
+    name: "Kosher Candy",
+  },
+  {
+    id: 6,
+    name: "Wedding Candy",
+  },
+  {
+    id: 7,
+    name: "Accessibility Statement",
+  },
+];
+export const contactfoot = [
+  {
+    id: 1,
+    name: "Call",
+  },
+  {
+    id: 2,
+    name: "Email",
+  },
+  {
+    id: 3,
+    name: "Chat with us!",
   },
 ];
